@@ -1,0 +1,29 @@
+{
+  "name": "my-hellots",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "build-rollup": "rollup --config rollup.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zeros-park/my-hellots.git"
+  },
+  "author": "zeros-park",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zeros-park/my-hellots/issues"
+  },
+  "homepage": "https://github.com/zeros-park/my-hellots#readme",
+  "description": "",
+  "devDependencies": {
+    "@rollup/plugin-terser": "^0.4.4",
+    "@rollup/plugin-typescript": "^11.1.6",
+    "rollup": "^4.18.0",
+    "tslib": "^2.6.3",
+    "typescript": "^5.4.5"
+  }
+}
