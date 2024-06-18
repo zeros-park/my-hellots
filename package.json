@@ -1,14 +1,14 @@
 {
   "name": "my-hellots",
   "version": "1.0.1",
-  "type": "module",
   "main": "./dist/asid17.cjs.js",
   "module": "./dist/asid17.esm.js",
   "types": "./dist/index.d.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "npm-publilsh": "npm version patch && npm publish",
+    "build-rollup": "rollup --config rollup.config.js --bundleConfigAsCjs",
     "build": "tsc",
-    "build-rollup": "rollup --config rollup.config.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",

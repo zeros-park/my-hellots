@@ -26,7 +26,7 @@ const targetOptions = (targetOutputOption) => ({
     ],
     output: Object.assign({}, targetOutputOption, {
         banner: `/*${banner}*/`,
-        // sourcemap: true,
+        sourcemap: true,
     })
 
 })

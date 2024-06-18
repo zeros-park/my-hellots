@@ -7,3 +7,4 @@ repository: ...
 version: 0.0.1
 */
 var t=function(){return(new Date).getTime().toString()},e=function(){return t()};export{e as default};
+//# sourceMappingURL=asid17.esm.js.map
