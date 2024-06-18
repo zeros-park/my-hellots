@@ -17,9 +17,14 @@ const targetOptions = (targetOutputOption) => ({
     input: './src/index.ts',
     plugins: [
         typescript(),
+        /**
+         * How to use terser' options
+         * https://github.com/terser/terser?tab=readmo-ov-file#format-options
+         * 
+         */
         terser({
             compress: true,
-            output: {
+            format:{
                 comments: 'some'
             }
         })
@@ -32,13 +37,13 @@ const targetOptions = (targetOutputOption) => ({
 })
 
 export default combinedOptions([{
-    file: `./dist/asid17.esm.js`,
-    format: 'esm',
+    format: 'cjs',
+    file: `./dist/asid17.cjs.js`,
 }, {
     format: 'umd',
     name,
     file: `./dist/asid17.umd.js`,
 }, {
-    format: 'cjs',
-    file: `./dist/asid17.cjs.js`,
+    file: `./dist/asid17.esm.js`,
+    format: 'esm',
 }])
