@@ -1,6 +1,6 @@
 {
   "name": "my-hellots",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "main": "./dist/asid17.cjs.js",
   "module": "./dist/asid17.esm.js",
   "types": "./dist/index.d.ts",
