@@ -7,4 +7,3 @@ repository: ...
 version: 0.0.1
 */
 "use strict";var t=function(){return(new Date).getTime().toString()};module.exports=function(){return t()};
-//# sourceMappingURL=asid17.cjs.js.map
