@@ -6,7 +6,7 @@
   "types": "./dist/index.d.ts",
   "scripts": {
     "npm-publish": "npm version patch && npm publish",
-    "build-rollup": "rollup --config rollup.config.js --bundleConfigAsCjs",
+    "build-rollup": "rollup -c --bundleConfigAsCjs",
     "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
